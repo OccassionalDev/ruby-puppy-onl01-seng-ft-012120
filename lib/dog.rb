@@ -22,4 +22,10 @@ class Dog
     @@all.clear
     save
   end 
+  
+  def print_all
+    @@all.each do |dog_name|
+      puts dog_name
+    end 
+  end 
 end 
